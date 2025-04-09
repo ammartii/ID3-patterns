@@ -1,0 +1,64 @@
+:root {
+  /* ---> Color */
+  --color-blue: hsl(213, 100%, 53%);
+  --color-blue-light: hsl(213, 100%, 65%);
+  --color-blue-dark: #085fca;
+  --color-grey: #e6e6e6;
+  --color-grey-dark: #081425;
+  --color-white: hsl(213, 100%, 100%);
+  --color-text-h1: #091a32;
+  --color-text-p: #5e2fd3;
+
+  /* ---> Colors Use */
+  --bg-body: var(var(--color-white));
+
+  /* ---> Spacing */
+  --space-0: 0;
+  --space-5: 5px;
+  --space-10: 10px;
+  --space-20: 20px;
+  --space-30: 30px;
+  --space-50: 50px;
+
+  /* ---> Layouts */
+  --border-radius: var(--space-10);
+  --border-radius-popup: var(--space-20);
+  --border-width-2: 2px;
+
+  /* ---> Fonts & Tipography */
+  --font-weight-300: 300;
+  --font-weight-normal: 400;
+  --font-weight-500: 500;
+
+  --font-size-18: 18px;
+  --font-size-30: 30px;
+
+  --font-family-body: "Poppins", sans-serif;
+
+  --line-height-body: 1.45;
+  --line-height-tittle-popup: 1.2;
+  --line-height-text-popup: 0.5;
+
+  /* ---> Buttons */
+  --button-color-main: var(--color-blue);
+  --button-color-light: var(--color-blue-light);
+  --button-color-dark: var(--color-blue-dark);
+  --button-color-disabled: var(--color-grey);
+
+  /* ---> Margins */
+  --margin-btn: var (--space-5);
+  --margin-bottom: var(--space-20);
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Flex center */
+.flex--center-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
